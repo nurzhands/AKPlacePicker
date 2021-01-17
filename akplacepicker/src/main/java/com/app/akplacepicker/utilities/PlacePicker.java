@@ -97,6 +97,7 @@ public class PlacePicker {
             intent.putExtra(Constants.INITIAL_LATITUDE_INTENT, this.latitude);
             intent.putExtra(Constants.INITIAL_LONGITUDE_INTENT, this.longitude);
             intent.putExtra(Constants.INITIAL_ZOOM_INTENT, this.zoom);
+            intent.putExtra(Constants.ADDRESS_REQUIRED_INTENT, this.addressRequired);
             intent.putExtra(Constants.HIDE_MARKER_SHADOW_INTENT, this.hideMarkerShadow);
             intent.putExtra(Constants.MARKER_DRAWABLE_RES_INTENT, this.markerDrawableRes);
             intent.putExtra(Constants.MARKER_COLOR_RES_INTENT, this.markerImageColorRes);
